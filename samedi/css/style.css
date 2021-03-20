@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto;
+}
+body{
+    margin: 0 8%;
+}
+.header li{
+    
+    display: inline;   
+    width: 100%;
+    text-decoration: none;
+} 
+.header li a{
+    color:#EF501D;
+    text-decoration: none;
+    
+}
+.header li a:hover{
+    color:#5653FD;      
+} 
+    
+
+
+.header{
+    
+    padding-top:15px;
+    
+}
+.logo{
+    padding: 0 12% 0 0 ; 
+    font-family: Mistral;
+    font-size: 40px;
+}
+.menu{
+    padding: 0 3% 0 5% ;
+}
+.about{
+    padding: 0 5% 0 27% ;
+}
+
+.contenu{
+    margin-top: 8%;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.texte{
+    color: #5653FD;
+    display: inline;
+    float: left;
+    padding: 50px 330px 0 40px;
+    width: 70%;
+
+
+}
+.image{
+    display: inline;
+    position: relative;
+    width: 30%;
+    
+}
+.image1{
+    position: absolute;
+    right: -9em;
+}
+.contenu h1 {
+    font-size: 70px;
+    font-family: Futura PT;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.contenu p {
+    font-size: 18px;
+    font-family: Futura PT;
+    margin: 10px 0 70px 0;
+}
+.contenu button {
+    background-color: #5653FD;
+    color: white;
+    width: 180px;
+    padding: 1% ;
+    border-radius: 5px;
+    border-color:#5653FD;
+}
+@media only screen and (max-width: 992px) {
+    
+    .texte{
+        float: none;
+    }
+    
+    .image{
+        display:block;
+        margin-top: 5%;
+        
+    }
+    .logo{
+        position: relative;
+        left: 90%;
+    }
+    .header toggel,.header a{
+        display: block;
+    }
+    
+
+
+}
+
+/* navbar */
+
